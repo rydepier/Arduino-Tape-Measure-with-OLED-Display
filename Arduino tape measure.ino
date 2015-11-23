@@ -50,7 +50,7 @@ void loop() {
   } while( u8g.nextPage() );
   delay(50);
 }
-
+ 
 void ultrasonic()
 {
 pinMode(trigPin, OUTPUT);
